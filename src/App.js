@@ -1,5 +1,5 @@
 import './App.css';
-
+import { Memes } from './memes';
 function App() {
   return (
     <div className="App">
@@ -10,6 +10,7 @@ function App() {
         <h4>my E-mail: saptarshichatterjee543@gmail.com</h4>
         <h4>if you are a true Star Wars fan then you know exactly what to reply....</h4>
       </header>
+      <Memes />
     </div>
   );
 }
