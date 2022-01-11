@@ -1,13 +1,13 @@
 import './App.css';
 import Memes from './memes';
-import Show from './Show2';
+// import Show from './Show2';
 import Me from './Me';
 function App() {
   return (
 
     <div className="App">
         <h1>Hello There!</h1>
-        <h4>if you are a true Star Wars fan then you know exactly what to reply....</h4>
+        <h4>If you are a true Star Wars fan then you know exactly what to reply....</h4>
         <br></br>
         <br></br>
         <Me />
@@ -18,7 +18,7 @@ function App() {
       <Memes />
 
       <p>test field</p>
-      <Show />
+      {/* <Show /> */}
       </div>
   );
 }

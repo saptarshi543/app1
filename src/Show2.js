@@ -9,6 +9,7 @@ import SimpleImageSlider from 'react-simple-image-slider';
 //   {url: "./pic3.jpeg"},
 //   {url: "./pic4.jpg"},
 // ];
+
 const images=[
   {url:"https://popcornerreviews.com/wp-content/uploads/2020/08/funny-qui-gon-star-wars-meme.jpg"},
  { url:"https://popcornerreviews.com/wp-content/uploads/2020/08/anakin-star-wars-prequel-meme.jpg"},
