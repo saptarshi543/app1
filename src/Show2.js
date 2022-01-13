@@ -20,19 +20,33 @@ const images=[
 const myStyle={
   marginLeft:"25%"
 };
+// const Show=()=>{
+//   return(
+//     <div>
+//     <Box m={2} pt={2}>
+//       <SimpleImageSlider 
+//       style={myStyle}
+//       width={896}
+//       height={504}
+//       images={images}
+//       showBullets={true}
+//       showNavs={true} />
+      
+//     </div>
+//   );
+// }
+
 const Show=()=>{
   return(
-    <div>
-    <Box m={2} pt={2}>
-      <SimpleImageSlider 
-      style={myStyle}
-      width={896}
-      height={504}
-      images={images}
-      showBullets={true}
-      showNavs={true} />
-      
-    </div>
-  );
-}
+<SimpleImageSlider 
+style={myStyle}
+width={896}
+height={504}
+images={images}
+showBullets={true}
+showNavs={true} 
+/>
+    );
+};
+
 export default Show;
