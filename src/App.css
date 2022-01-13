@@ -1,7 +1,11 @@
 .App {
   text-align: center;
+  text-decoration-color: red;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fget.wallhere.com%2Fphoto%2Fdigital-art-planet-space-artwork-stars-Earth-space-art-circle-atmosphere-universe-satellite-outer-space-astronomical-object-131732.jpg&f=1&nofb=1");
 }
-
+.text{
+  background-color:aqua;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

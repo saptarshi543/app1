@@ -1,7 +1,7 @@
 
 import React from 'react';
-import AliceCarousel from 'react-alice-carousel';
-import "react-alice-carousel/lib/alice-carousel.css";
+import test_image from './download.jpeg';
+import './App.css';
 
 // import image0 from './download.jpeg';
 // import image1 from './pic1.jpeg';
@@ -25,15 +25,17 @@ import "react-alice-carousel/lib/alice-carousel.css";
 //  {url: "https://popcornerreviews.com/wp-content/uploads/2020/08/anakin-star-wars-prequel-meme.jpg"}
 // ];
 
-const myStyle={
-  imgs:{
-    padding:"10%",
-  }
-};
+// const myStyle={
+//   imgs:{
+//     padding:"10%",
+//   }
+// };
 
 const Show=()=>{
   return(
-    <div></div>
+    <div>
+      <img scr={test_image} alt="just some memes"  />
+    </div>
     );
 };
 
