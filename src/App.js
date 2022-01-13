@@ -1,6 +1,6 @@
 import './App.css';
 import Memes from './memes';
-import Show from './Show2';
+// import Show from './Show2';
 import Me from './Me';
 function App() {
   return (
@@ -17,8 +17,8 @@ function App() {
       <h3>Here are some random Star Wars memes....</h3>
       <Memes />
 
-      <p>test field</p>
-      <Show />
+      {/* <p>test field</p> */}
+      {/* <Show /> */}
       </div>
   );
 }
