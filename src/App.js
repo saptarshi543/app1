@@ -1,6 +1,6 @@
 import './App.css';
 import Memes from './memes';
-import Show from './Show2';
+import Show from './Show';
 import Me from './Me';
 function App() {
   return (
