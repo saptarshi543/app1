@@ -22,10 +22,10 @@ var count=0;
       <div>
       {
 	  
-        listOfImages.map((image,index)=> <img key={index} src={image} title={count++}  loading="lazy" style={myStyle_horizontal} alt="info"></img> )
+        listOfImages.map((image,index)=> <img key={index} src={image} title={++count}  loading="lazy" style={myStyle_horizontal} alt="info"></img> )
       }
 
-	    <p>Total number of memes: {count-1}</p>
+	    <p>Total number of memes: {count}</p>
       </div>
       )
   }
