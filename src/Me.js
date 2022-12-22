@@ -1,16 +1,20 @@
 import React from "react";
-
 function Me(){
-    // this function only diplays stuff about me
-    // like email,github account,etc...
-    return(
-        <div className="text">
+const style_m={
+	backgroundColor: '#2995e7',
+	padding:"20px"
+};
+const text={
+	backgroundColor:"#f1c232"
+}
+	return(
+        <div style={style_m} className="text">
             <h4>my E-mail: saptarshichatterjee543@gmail.com</h4>
-        <a href='https://github.com/saptarshi543'>my github account</a>
+        <a style={text} href='https://github.com/saptarshi543'>my github account</a>
         <br></br>
-        <p1>Wonder why this site does not have a nice name?
-            That's because i am too poor to afford a domain.
-            So <a href="https://www.buymeacoffee.com/sap543">pleasse support me here.</a>
+        <p1>Wonder why this site does not have a nice domain name?
+            That's because i am too poor to afford a site name.
+            So <a style={text} href="https://www.buymeacoffee.com/sap543">pleasse support me here.</a>
         </p1>
         </div>
     )
