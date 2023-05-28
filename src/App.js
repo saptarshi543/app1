@@ -7,7 +7,6 @@ function App() {
 
     <div className="App">
         <h1>Hello There!</h1>
-        <h4>If you are a true Star Wars fan then you know exactly what to reply....</h4>
         <br></br>
         <br></br>
         <Me />
